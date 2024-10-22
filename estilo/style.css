@@ -109,25 +109,36 @@ div#text h1 {
  div.campo {
     background-color: #5F2C82;
     border-radius: 5px;
-    
+    width: 90%;
+    height: 40px;
     display: block;
-    margin: 5px 0px;
+    margin: auto;
+    margin-bottom: 5px;
+    overflow: hidden;
  }
 
  div.campo input {
     font-size: 1em;
-  
-    height: 40px;
-    margin-top: 5px;
+    width: calc(100% - 47px);
+    height: 35px;
+    transform: translateY(-5.2px);
     background-color: #94CFCD;
     border: none;
     border-radius: 5px;
-
  }
+
+ div.campo input:focus-within {
+    background-color: white;
+    
+ }
+
  div.campo span {
     background-color: #5F2C82;
     font-size: 2em;
     color: white;
+    transform: translate(5px , 5px);
+
+    width: 40px;
  }
 
 

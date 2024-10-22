@@ -19,6 +19,7 @@
     div#text {
         float: right;
         width: 70%;
+        transform: translateY(-15px);
     }
 
     div#text h1 {
@@ -54,4 +55,5 @@
     div#text p {
         font-size: 1em;
     }
+
 }
