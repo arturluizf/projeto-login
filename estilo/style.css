@@ -28,7 +28,7 @@ section#login {
     left: 50%;
     width: 250px;
     height: 515px;
-    transform: translate(  -50%, -50% );
+    
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -36,7 +36,7 @@ section#login {
 
     transition: width .4s , height .4s;
     transition-timing-function: ease;
-
+    transform: translate(  -50%, -50% );
 }
 
 section div h1 {
@@ -121,10 +121,11 @@ div#text h1 {
     font-size: 1em;
     width: calc(100% - 47px);
     height: 35px;
-    transform: translateY(-5.2px);
+    ;
     background-color: #94CFCD;
     border: none;
     border-radius: 5px;
+    transform: translateY(-5.2px)
  }
 
  div.campo input:focus-within {
@@ -136,9 +137,8 @@ div#text h1 {
     background-color: #5F2C82;
     font-size: 2em;
     color: white;
-    transform: translate(5px , 5px);
-
     width: 40px;
+    transform: translate(5px , 5px);
  }
 
 
